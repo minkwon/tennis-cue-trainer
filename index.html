@@ -23,17 +23,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-weight: 900;
-    letter-spacing: 1px;
   }
+/* NEW: visible label box */
+.phase-banner span {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
-  .hidden { visibility: hidden; }
+/* text colors */
+.phase-defense span { color: #e74c3c; }
+.phase-neutral span { color: #333; }
+.phase-chance  span { color: #27ae60; }
 
-  .phase-defense { color: #e74c3c; }
-  .phase-neutral { color: #555; }
-  .phase-chance  { color: #27ae60; }
-
+.hidden { visibility: hidden; }
   label {
     display: block;
     margin-top: 12px;
